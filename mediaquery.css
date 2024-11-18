@@ -1,0 +1,44 @@
+@media screen and (max-width:600px) {
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+    .top{
+        min-height: fit-content;
+        flex-direction: column;
+        gap:20px;
+        margin-bottom: 20px;
+    }
+    .left{
+        width: 100%;
+    }
+    .left .heading{
+        font-size: 32px ;
+        line-height: 35.2px;
+        margin-top:10px;
+    }
+    .right{
+        width: 100%;
+        color: #475467;
+    }
+    .imageContainer{
+        height: fit-content;
+        flex-direction: column;
+        gap:20px;
+        margin-bottom: 20px;
+    }
+    .image1{
+        min-width: 100%;
+        height: 30vh;
+    }
+    .image2{
+        min-width: 100%;
+        height: 30vh;
+    }
+    .imageContainer > section{
+        display: none;
+    }
+}
